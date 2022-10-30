@@ -1,3 +1,5 @@
+const { createApp } = Vue
+
 const options = {
     template: `
         <section>
@@ -6,5 +8,5 @@ const options = {
     `,
 }
 
-const app = Vue.createApp(options)
+const app = createApp(options)
 app.mount('#app')
