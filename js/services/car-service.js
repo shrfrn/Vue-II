@@ -33,6 +33,8 @@ function getEmptyCar() {
     return { id: '', vendor: '', maxSpeed: 0 }
 }
 
+// Private Function 
+
 function _createCars() {
     let cars = utilService.loadFromStorage(CARS_KEY)
     if (!cars || !cars.length) {
